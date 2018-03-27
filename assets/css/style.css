@@ -1,0 +1,106 @@
+/* Google Fonts */
+/* 
+font-family: 'Delius', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+body{
+  background-image:url("./../images/clouds.jpg")
+}
+
+.jumbotron{
+  background-image: url("./../images/clouds.jpg")
+}
+
+.titlefont{
+  color:black;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  font-size:100px;
+}
+
+.leadfont{
+  color:black;
+  font-weight: bold;
+  font-family: 'Delius', cursive;
+  font-size:30px;
+}
+
+
+.label-text{
+  color:black;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  font-size:50px;
+}
+
+.info-submit-area{
+  border-radius: 15px;
+  margin-bottom:30px;
+}
+
+.form-text{
+  font-family: 'Delius', cursive;
+  font-size:25px;
+}
+
+.gif-area{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.animal-button{
+  margin-right:15px;
+  font-family: 'Delius', cursive;
+  background-color:pink;
+  font-size:25px;
+}
+
+p.rating-text{
+  font-size:30px;
+  font-weight:bold;
+  font-family: 'Delius', cursive;
+  color:black;
+  text-align: center;
+}
+
+.animal-gif-div{
+  margin-right:20px;
+  margin-bottom:15px;
+  box-sizing:border-box
+}
+
+.animal-gif-image{
+  border:5px solid whitesmoke;
+  border-radius:15px;
+  box-sizing:border-box;
+}
+
+@media (max-width: 500px) {
+  
+  .titlefont{
+    font-size:50px;
+  }
+
+  .label-text{
+    font-size:40px;
+  }
+
+  .leadfont{
+    font-size:20px;
+  }
+
+  .form-text{
+    font-size:20px;
+  }
+
+  .animal-button{
+    font-size:15px;
+  }
+
+  p.rating-text{
+    font-size:20px;
+  }
+  
+              
+              
+  }
